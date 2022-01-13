@@ -38,13 +38,19 @@
 
                 <ul class="header-contacts list">
                     <li class="hd-contacts-item">
-                        <a href="mailto:info@devstudio.com" class="header-contact mail link">
-                            info@devstudio.com
+                        <a class="header-contact link" href="mailto:info@devstudio.com">
+                            <svg class="mail-icon" width="16" height="12">
+                                <use href="./images/icons.svg#mail"></use>
+                            </svg>
+                            <span class="contact-text">info@devstudio.com</span>
                         </a>
                     </li>
                     <li class="hd-contacts-item">
-                        <a href="tel:+380961111111" class="header-contact link">
-                            +38 096 111 11 11
+                        <a class="header-contact link" href="tel:+380961111111">
+                            <svg class="tel-icon" width="10" height="16">
+                                <use href="./images/icons.svg#tel"></use>
+                            </svg>
+                            <span class="contact-text">+38 096 111 11 11</span>
                         </a>
                     </li>
                 </ul>
@@ -65,30 +71,53 @@
             <!-- Advantages -->
             <section class="advantages section">
                 <div class="container">
-                    <h2 class="advantages-title visually-hidden">Преимущества</h2>
+                    <h2 class="section-title visually-hidden">Преимущества</h2>
                     <ul class="advantages-list list">
                         <li class="advantages-item">
+                            <div class="advantages-icon-bg">
+                                <svg class="antenna-icon" width="70" height="70">
+                                    <use href="./images/icons.svg#antenna"></use>
+                                </svg>
+                            </div>
                             <h3 class="advantages-caption">Внимание к деталям</h3>
                             <p class="advantages-desc">
                                 Идейные соображения, а также начало повседневной работы по
                                 формированию позиции.
                             </p>
                         </li>
+
                         <li class="advantages-item">
+                            <div class="advantages-icon-bg">
+                                <svg class="clock-icon" width="70" height="70">
+                                    <use href="./images/icons.svg#clock"></use>
+                                </svg>
+                            </div>
                             <h3 class="advantages-caption">Пунктуальность</h3>
                             <p class="advantages-desc">
                                 Задача организации, в особенности же рамки и место обучения кадров
                                 влечет за собой.
                             </p>
                         </li>
+
                         <li class="advantages-item">
+                            <div class="advantages-icon-bg">
+                                <svg class="diagram-icon" width="70" height="70">
+                                    <use href="./images/icons.svg#diagram"></use>
+                                </svg>
+                            </div>
                             <h3 class="advantages-caption">Планирование</h3>
                             <p class="advantages-desc">
                                 Равным образом консультация с широким активом в значительной степени
                                 обуславливает.
                             </p>
                         </li>
+
                         <li class="advantages-item">
+                            <div class="advantages-icon-bg">
+                                <svg class="astronaut-icon" width="70" height="70">
+                                    <use href="./images/icons.svg#astronaut"></use>
+                                </svg>
+                            </div>
                             <h3 class="advantages-caption">Современные технологии</h3>
                             <p class="advantages-desc">
                                 Значимость этих проблем настолько очевидна, что реализация плановых
@@ -102,7 +131,7 @@
             <!-- Features of work -->
             <section class="features section">
                 <div class="container">
-                    <h2 class="features-title">Чем мы занимаемся</h2>
+                    <h2 class="section-title">Чем мы занимаемся</h2>
                     <ul class="features-list list">
                         <li class="features-item">
                             <img
@@ -132,7 +161,7 @@
             <!-- Our comand -->
             <section class="comand section">
                 <div class="container">
-                    <h2 class="comand-title">Наша команда</h2>
+                    <h2 class="section-title">Наша команда</h2>
                     <ul class="comand-list list">
                         <li class="comand-item">
                             <div class="comand-thumb">
@@ -141,6 +170,54 @@
                             <div class="comand-content">
                                 <h3 class="comand-heading">Игорь Демьяненко</h3>
                                 <p lang="en" class="comand-text">Product Designer</p>
+                            </div>
+                            <div class="comand-social-networks">
+                                <ul class="social-networks list">
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://www.instagram.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="instagram-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://twitter.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="twitter-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://facebook.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="facebook-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://linkedin.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="linkedin-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </li>
 
@@ -152,6 +229,54 @@
                                 <h3 class="comand-heading">Ольга Репина</h3>
                                 <p lang="en" class="comand-text">Frontend Developer</p>
                             </div>
+                            <div class="comand-social-networks">
+                                <ul class="social-networks list">
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://www.instagram.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="instagram-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://twitter.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="twitter-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://facebook.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="facebook-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://linkedin.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="linkedin-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
 
                         <li class="comand-item">
@@ -161,6 +286,54 @@
                             <div class="comand-content">
                                 <h3 class="comand-heading">Николай Тарасов</h3>
                                 <p lang="en" class="comand-text">Marketing</p>
+                            </div>
+                            <div class="comand-social-networks">
+                                <ul class="social-networks list">
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://www.instagram.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="instagram-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://twitter.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="twitter-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://facebook.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="facebook-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://linkedin.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="linkedin-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </li>
 
@@ -172,8 +345,140 @@
                                 <h3 class="comand-heading">Михаил Ермаков</h3>
                                 <p lang="en" class="comand-text">UI Designer</p>
                             </div>
+                            <div class="comand-social-networks">
+                                <ul class="social-networks list">
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://www.instagram.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="instagram-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://twitter.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="twitter-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://facebook.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="facebook-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-networks-item">
+                                        <a
+                                            class="socials-link link"
+                                            href="https://linkedin.com/"
+                                            target="_blank"
+                                        >
+                                            <svg class="linkedin-icon icon" width="20" height="20">
+                                                <use href="./images/icons.svg#linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </li>
                     </ul>
+                </div>
+            </section>
+
+            <!-- Examples -->
+            <section class="examples section">
+                <div class="container">
+                    <h2 class="section-title">Постоянные клиенты</h2>
+                    <div class="examples-box">
+                        <ul class="examples-list list">
+                            <li class="examples-item">
+                                <a
+                                    class="company-link link"
+                                    href=""
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <svg class="company-1-icon icon" width="106" height="60">
+                                        <use href="./images/icons.svg#company-1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="examples-item">
+                                <a
+                                    class="company-link link"
+                                    href=""
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <svg class="company-2-icon icon" width="106" height="60">
+                                        <use href="./images/icons.svg#company-2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="examples-item">
+                                <a
+                                    class="company-link link"
+                                    href=""
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <svg class="company-3-icon icon" width="106" height="60">
+                                        <use href="./images/icons.svg#company-3"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="examples-item">
+                                <a
+                                    class="company-link link"
+                                    href=""
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <svg class="company-4-icon icon" width="106" height="60">
+                                        <use href="./images/icons.svg#company-4"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="examples-item">
+                                <a
+                                    class="company-link link"
+                                    href=""
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <svg class="company-5-icon icon" width="106" height="60">
+                                        <use href="./images/icons.svg#company-5"></use>
+                                    </svg>
+                                </a>
+                            </li>
+
+                            <li class="examples-item">
+                                <a
+                                    class="company-link link"
+                                    href=""
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <svg class="company-6-icon icon" width="93.79" height="43.93">
+                                        <use href="./images/icons.svg#company-6"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </section>
         </main>
@@ -208,6 +513,55 @@
                             </li>
                         </ul>
                     </address>
+                </div>
+                <div class="footer-socials">
+                    <p class="ft-socials-text">Присоединяйтесь</p>
+                    <ul class="ft-socials-list list">
+                        <li class="ft-socials-item">
+                            <a
+                                class="ft-socials-link link"
+                                href="https://www.instagram.com/"
+                                target="_blank"
+                            >
+                                <svg class="ft-instagram-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="ft-socials-item">
+                            <a
+                                class="ft-socials-link link"
+                                href="https://twitter.com/"
+                                target="_blank"
+                            >
+                                <svg class="ft-twitter-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="ft-socials-item">
+                            <a
+                                class="ft-socials-link link"
+                                href="https://facebook.com/"
+                                target="_blank"
+                            >
+                                <svg class="ft-facebook-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="ft-socials-item">
+                            <a
+                                class="ft-socials-link link"
+                                href="https://linkedin.com/"
+                                target="_blank"
+                            >
+                                <svg class="ft-linkedin-icon" width="20" height="20">
+                                    <use href="./images/icons.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>
